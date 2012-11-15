@@ -43,7 +43,7 @@ module Trac
                                        user,
                                        pass,
                                        use_ssl,
-                                       nil)
+                                       timeout=120)
     end
     
     def query command, *args
